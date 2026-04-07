@@ -34,3 +34,24 @@ Pick your grid size, find your character, and hunt down every alien before you g
 
 ## Project structure
 
+10x10/
+├── index.html — page structure
+├── styles.css — grid layout and piece colours
+└── app.js — all game logic
+
+## Honest notes
+
+- Winning is announced exclusively in the console. The page does nothing. No confetti. No sound. Nothing.
+- If you type a letter instead of a number in the prompt, `parseInt()` returns `NaN` and the grid becomes a philosophical concept.
+- All variable names are in Portuguese. `boneco` means character. `alien` means alien. `faltam` means "remaining". Language is a spectrum.
+- Six aliens is hardcoded. Could be a constant. Could be configurable. It's six.
+- The grid is square. Always. Rectangles were considered and rejected.
+
+## Context
+
+First JavaScript project involving real-time DOM manipulation, keyboard events, and game state.
+The grid works. The boundary detection works. The aliens do not fight back. Yet.
+
+---
+
+*Next up: a scoreboard, a timer, or maybe aliens that actually move. We'll see.*
