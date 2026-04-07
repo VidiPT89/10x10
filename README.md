@@ -34,10 +34,12 @@ Pick your grid size, find your character, and hunt down every alien before you g
 
 ## Project structure
 
+```
 10x10/
-├── index.html — page structure
-├── styles.css — grid layout and piece colours
-└── app.js — all game logic
+├── index.html   — page structure
+├── styles.css   — grid layout and piece colours
+└── app.js       — all game logic
+```
 
 ## Honest notes
 
