@@ -1,29 +1,36 @@
-# 10 x 10 — Mexer o Boneco
+# 🎮 10 x 10 — Mexer o Boneco
 
-Jogo de grelha feito em JavaScript puro, sem frameworks.
-Escolhe o tamanho da grelha, move o boneco com as setas e captura todos os aliens.
+> *"Move to the right. No wait, up. UP. Too late, you walked into a wall."*
 
-## Como jogar
+A grid-based browser game built with zero frameworks and zero regrets.
+Pick your grid size, find your character, and hunt down every alien before you give up and close the tab.
+(They can't run. They're divs. You have no excuse.)
 
-1. Abre `index.html` no browser
-2. Introduz o tamanho da grelha quando pedido (padrão: 10)
-3. Usa as **setas do teclado** para mover o quadrado vermelho
-4. Captura os **6 aliens verdes** para ganhar
-5. Abre a consola do browser — os resultados aparecem lá
+## What's inside
 
-## Funcionalidades
+- Dynamic grid built from scratch — no canvas, no engine, just a sea of `<div>`s
+- Grid size chosen at runtime via `prompt()` — 5x5 or 100x100, your call
+- Random starting position for the player on every run
+- 6 aliens placed randomly, guaranteed not to spawn on top of the player
+- Keyboard-driven movement with full boundary detection (no clipping through walls)
+- Step on an alien to capture it — no button, no click, just walk into it
+- Countdown in the console: it tells you how many are left
+- Win condition: capture all 6 to end the game (and earn a console.log)
+- CSS-only visuals — red square is you, green squares are the enemy
 
-- Grelha dinâmica com tamanho à escolha
-- Posição inicial aleatória do boneco e dos aliens
-- Deteção de limites (não sai da grelha)
-- Captura de aliens por sobreposição
-- Condição de vitória: capturar todos os 6 aliens
+## Tech Stack
 
-## Tecnologias
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
 
-- HTML5
-- CSS3 (Flexbox)
-- JavaScript (DOM manipulation, eventos de teclado)
+## How to play
 
-## Estrutura
+1. Open `index.html` in the browser
+2. Enter a grid size when prompted (default: 10)
+3. Use the **arrow keys** to move the red square
+4. Walk over the **green aliens** to capture them
+5. Open the browser console — that's where the drama happens
+
+## Project structure
 
